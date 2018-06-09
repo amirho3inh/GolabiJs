@@ -1,4 +1,5 @@
 # GolabiJs
+add features to jquery easily
 
 Requirements
 ------------
