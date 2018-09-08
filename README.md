@@ -46,10 +46,20 @@ getUrlParameter('id'); //output: 51
 getUrlParameter('name'); //output: test
 ```
 
-get url parameter:
+get file size format:
 ```js
 formatBytes(51250000, 2); //output: 51.25 MB
 formatBytes(51250000, 1); //output: 51.2 MB
+```
+
+mobile detect:
+```js
+isMobile(); //output: if has True then open page in mobile
+```
+
+mobile and tablet detect:
+```js
+isMobileAndTablet(); //output: if has True then open page in mobile or tablet
 ```
 
 
