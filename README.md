@@ -62,6 +62,16 @@ mobile and tablet detect:
 isMobileAndTablet(); //output: if has True then open page in mobile or tablet
 ```
 
+search value in json: <br>
+example:<br>
+keyInput = title<br>
+valueInput = test2<br>
+json = [{id:1,title:'test'}, {id:2,title:'test2'}]<br>
+result = {id:2,title:'test2'}<br>
+```js
+searchInJson(keyInput,valueInput,json); //output: result json
+```
+
 
 License
 -------

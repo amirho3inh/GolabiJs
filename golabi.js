@@ -74,3 +74,12 @@ function isMobileAndTablet() {
     return check;
 }
 
+function searchInJson(keyInput,valueInput,json) {
+    var exportDate = '';
+    $.each( json, function( key, value ) {
+        if(value[keyInput] == valueInput){
+            exportDate = value;
+        }
+    });
+    return exportDate;
+}
