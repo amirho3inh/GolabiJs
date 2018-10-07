@@ -75,10 +75,11 @@ function isMobileAndTablet() {
 }
 
 function searchInJson(keyInput,valueInput,json) {
-    var exportDate = '';
+    var exportDate = false;
     $.each( json, function( key, value ) {
         if(value[keyInput] == valueInput){
             exportDate = value;
+            return false;
         }
     });
     return exportDate;
