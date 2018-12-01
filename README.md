@@ -72,6 +72,11 @@ result = {id:2,title:'test2'}<br>
 searchInJson(keyInput,valueInput,json); //output: result json
 ```
 
+call function and count up element class .count
+```js
+countUp();
+```
+
 
 License
 -------
