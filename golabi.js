@@ -98,3 +98,13 @@ function countUp() {
         });
     });
 }
+
+function justPersian(str) {
+    var p = /^[\u0600-\u06FF\s]+$/;
+
+    if (!p.test(str)) {
+        return false;
+    }else{
+        return true;
+    }
+}

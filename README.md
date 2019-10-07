@@ -72,9 +72,14 @@ result = {id:2,title:'test2'}<br>
 searchInJson(keyInput,valueInput,json); //output: result json
 ```
 
-call function and count up element class .count
+call function and count up element class `.count` :
 ```js
 countUp();
+```
+
+persian str validation 
+```js
+justPersian(str); //output: true or false
 ```
 
 
